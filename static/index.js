@@ -1,10 +1,10 @@
 const socket = io();
 
-const messages = document.getElementById("messages");
 const form = document.getElementById("form");
+const messages = document.getElementById("messages");
 const input = document.getElementById("inputs");
-const nickname = document.getElementById("nicknames");
 const typing = document.getElementById("typing");
+const nickname = document.getElementById("nicknames");
 
 form.addEventListener("submit", function (e) {
     e.preventDefault();
